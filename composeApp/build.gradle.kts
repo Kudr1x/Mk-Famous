@@ -50,6 +50,9 @@ kotlin {
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.kotlinx.datetime)
             implementation(libs.multiplatformSettings)
+            implementation(libs.testng)
+            implementation(libs.compose.viewmodel)
+            implementation(libs.compose.navigation)
         }
 
         commonTest.dependencies {
@@ -112,9 +115,6 @@ android {
         //enables a Compose tooling support in the AndroidStudio
         compose = true
     }
-}
-dependencies {
-    testImplementation("org.testng:testng:7.1.0")
 }
 
 compose.desktop {

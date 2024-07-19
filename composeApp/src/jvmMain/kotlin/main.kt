@@ -3,7 +3,7 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
 import java.awt.Dimension
-import org.github.kudrix.famous.App
+import org.github.kudrix.famous.org.github.kudrix.famous.theme.App
 
 fun main() = application {
     Window(
